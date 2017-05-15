@@ -1,0 +1,190 @@
+/* START hero */
+
+.hero {
+  color: #756767;
+  background:#292121;
+}
+
+.hero-content {
+  font-size:1.3em;
+  line-height: 1.9em;
+  margin-bottom:40px
+}
+
+.hero a:hover {
+  color:#fff
+}
+
+.hero-content h1 [class^="icon-"] {
+  color:#BA1414;
+  font-size: 1.3em;
+}
+
+.hero h1 {
+  color:#fff;
+  font-size:2em;
+  margin-top: .4em;
+}
+
+.hero h1 span {
+  color:#BA1414;
+}
+
+.hero-center {
+  text-align:center;
+}
+
+
+@media (min-width:768px) and (max-width:979px)  {
+  .hero-content {
+    font-size:1.1em;
+  }
+}
+
+@media (max-width:767px)  {
+	.hero-content {
+    font-size:1em;
+	  width: auto;
+	  margin: 0 40px 40px;
+	}
+}
+
+/* END hero */
+
+/* START Left Icon */
+
+.left-icon {
+  text-align: left;
+  position: relative;
+  padding-left: 55px;
+}
+
+.left-icon .icon {
+  position: absolute;
+  left: 0px;
+  line-height: 1em;
+  color: #BA1414;
+  font-size: 2.2em;
+}
+
+/* END Left Icon */
+
+/* START Center Icon */
+
+.center-icon {
+  text-align: center;
+}
+
+.center-icon .icon {
+  line-height: 1.5em;
+  color: #BA1414;
+  font-size: 3em;
+}
+
+.center-icon .icon  [class^="icon-"] {
+  margin:0;
+}
+
+/* END Center Icon */
+
+/* START Portfolio */
+
+.grid-4.porto .each {
+	margin-bottom:20px
+}
+
+.grid-3.porto .each {
+	margin-bottom:30px
+}
+
+.grid-2.porto .each {
+	margin-bottom:40px
+}
+
+.porto .v2 {
+	border-radius: 0 0 3px 3px;
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.15);
+}
+
+.porto .v3 {
+	padding:10px 10px 12px;
+	background: #fff;
+	border-radius: 3px;
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.15);
+}
+
+.img-thumb {
+	position:relative;
+}
+
+.img-thumb img {
+	width: 100%;
+}
+
+.img-thumb a {
+	display:block;
+	overflow:hidden;
+}
+
+.img-thumb .mask {
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  opacity:0;
+  z-index:11;
+  background:rgba(184,0,0,.7);
+}
+
+.img-thumb .mask [class^="icon-"] {
+	position:absolute;
+	left:50%;
+	top:50%;
+	color: #fff;
+	padding: 2px;
+	font-size: 1.7em;
+	margin-left: -12px;
+	margin-top: -15px;
+}
+
+.img-thumb:hover .mask {
+  opacity:1;
+}
+
+.porto .caption {
+	overflow:hidden;
+}
+
+.porto .v2 .caption {
+	background: #fff;
+	padding: 0 10px 11px;
+	border-radius: 0 0 3px 3px;
+}
+
+.porto .caption h2 {
+	font-size: .9em;
+	line-height:1.4em;
+	font-family: "Roboto Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing:0;
+	margin-bottom: 0;
+}
+
+.porto .caption h2 a {
+	color:#555;
+}
+
+.porto .caption h2 a:hover {
+	color:#BA1414;
+}
+
+@media (min-width:1300px)  {
+	.grid-4.porto .each {
+		margin-bottom:25px
+	}
+	.grid-2.porto .each {
+		margin-bottom:60px
+	}
+}
+
+/* END Portfolio */

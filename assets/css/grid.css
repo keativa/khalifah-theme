@@ -1,0 +1,379 @@
+/* START Wrap Grid */
+
+.wrap-grid {
+  width: 100%;
+  clear: both;
+  float: left;
+  padding:80px 0 40px;
+  overflow:hidden;
+  background:#fff
+}
+
+.wrap-even {
+	background:#fafafa
+}
+
+.wrap-grid .summary {
+}
+
+/*.wrap-grid .summary h1 {
+	color:#555;
+}*/
+
+[class^="grid-"]:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+@media (max-width:767px) {
+	.wrap-grid {
+	  width:auto;
+	  float:none;
+	  margin: 0 auto;
+	  margin-left:-20px;
+	  margin-right:-20px;
+	}
+}
+
+/* END Wrap Grid */
+
+/* START Grid 4 */
+
+.grid-4 {
+  margin-bottom: 40px;
+}
+
+.grid-4 .each {
+  float:left;
+  width:23.35%;
+  height:auto;
+  margin:0 2.2% 30px 0;
+  position:relative;
+}
+
+.grid-4 .each:nth-child(4n) {
+  margin-right:0;
+}
+
+.grid-4 .each:nth-child(4n+1) {
+  clear:both;
+}
+
+.grid-4 h2 {
+  color: #555;
+}
+
+@media (min-width:1300px)  {
+}
+
+@media (min-width:768px) and (max-width:979px)  {
+}
+
+@media (max-width:979px)  {
+}
+
+@media (max-width:767px)  {
+	.grid-4 {
+	  width: auto;
+	  margin: 0 40px 40px;
+	}
+	.grid-4 .each {
+	  width:45%;
+	  margin-right:10%;
+	  margin-bottom:30px;
+	}
+	.grid-4 .each:nth-child(2n) {
+	  margin-right:0;
+	}
+	.grid-4 .each:last-child {
+	  margin-bottom:10px;
+	}
+}
+
+@media (max-width:590px)  {
+	.grid-4 .each {
+	  float:none;
+	  width:auto;
+	  margin-right:0;
+	}
+}
+
+/* END Grid 4 */
+
+/* START Grid 3 */
+
+.grid-3 {
+  margin-bottom: 40px;
+}
+
+.grid-3 .each {
+  float:left;
+  width:31.86%;
+  height:auto;
+  margin:0 2.21% 30px 0;
+  position:relative;
+}
+
+.grid-3 .each:nth-child(3n) {
+  margin-right:0;
+}
+
+.grid-3 .each:nth-child(3n+1) {
+  clear:both;
+}
+
+.grid-3 h2 {
+  color: #555;
+}
+
+@media (min-width:1300px)  {
+}
+
+@media (min-width:768px) and (max-width:979px)  {
+	.grid-3 .each {
+	  width:31.4%;
+	  margin:0 2.9% 30px 0;
+	}
+}
+
+@media (max-width:979px)  {
+}
+
+@media (max-width:767px)  {
+	.grid-3 {
+	  width: auto;
+	  margin: 0 40px 40px;
+	}
+	.grid-3 .each {
+	  width:auto;
+	  margin-right:0;
+	  margin-bottom:30px;
+	}
+	.grid-3 .each:last-child {
+	  margin-bottom:10px;
+	}
+}
+
+/* END Grid 3 */
+
+/* START Grid 2 */
+
+.grid-2 {
+  margin-bottom: 40px;
+}
+
+.grid-2 .each {
+  float:left;
+  width:47.3%;
+  height:auto;
+  margin:0 5.4% 30px 0;
+  position:relative;
+}
+
+.grid-2 .each:nth-child(2n) {
+  margin-right:0;
+}
+
+.grid-2 .each:nth-child(2n+1) {
+  clear:both;
+}
+
+.grid-2 h2 {
+  color: #555;
+}
+
+@media (min-width:1300px)  {
+}
+
+@media (min-width:768px) and (max-width:979px)  {
+}
+
+@media (max-width:979px)  {
+}
+
+@media (max-width:767px)  {
+	.grid-2 {
+	  width: auto;
+	  margin: 0 40px 40px;
+	}
+	.grid-2 .each {
+	  width:auto;
+	  float: none;
+    margin: 0 auto 30px;
+	}
+	.grid-2 .each:last-child {
+	  margin-bottom:10px;
+	}
+}
+
+/* END Grid 2 */
+
+/* START Grid 1 */
+
+.grid-1 {
+  margin-bottom: 40px;
+}
+
+.grid-1 > .each {
+  float:left;
+  width:auto;
+  height:auto;
+  margin:0 0 30px;
+  position:relative;
+}
+
+.grid-1 > .each:first-child {
+}
+
+.grid-1 > .each:last-child {
+}
+
+.grid-1 h2 {
+  color: #555;
+}
+
+@media (min-width:1300px)  {
+}
+
+@media (min-width:768px) and (max-width:979px)  {
+}
+
+@media (max-width:979px)  {
+}
+
+@media (max-width:767px)  {
+	.grid-1 > .each {
+	  margin-bottom:30px;
+	}
+	.grid-1 > .each:last-child {
+	  margin-bottom:10px;
+	}
+}
+
+/* END Grid 1 */
+
+/* START Grid 1-2, Grid 1-3 */
+
+.grid-1-2, .grid-1-3 {
+  margin-bottom: 40px;
+  overflow:hidden;
+}
+
+.grid-1-2 .each, .grid-1-3 .each {
+  float:left;
+  height:auto;
+  position:relative;
+}
+
+.grid-1-2 > .each:first-child {
+  width:30.7%;
+  margin-right:4.3%;
+}
+
+.grid-1-2 > .each:last-child {
+  width:65%;
+  margin-right:0;
+}
+
+.grid-1-3 > .each:first-child {
+  width:23.4%;
+  margin-right:4.3%;
+}
+
+.grid-1-3 > .each:last-child {
+  width:72.3%;
+  margin-right:0;
+}
+
+.grid-1-2 h2, .grid-1-3 h2 {
+  color: #555;
+}
+
+@media (min-width:1300px)  {
+}
+
+@media (min-width:768px) and (max-width:979px)  {
+}
+
+@media (max-width:979px)  {
+}
+
+@media (max-width:767px)  {
+	.grid-1-2, .grid-1-3 {
+	  width: auto;
+	  margin: 0 40px 40px;
+	}
+	.grid-1-2 > .each, .grid-1-3 > .each {
+	  width:auto !important;
+	  margin-right:0;
+	  margin-bottom:30px;
+	}
+}
+
+/* END Grid 1-2, Grid 1-3 */
+
+/* START Grid 2-1, Grid 3-1 */
+
+.grid-2-1, .grid-3-1 {
+  margin-bottom: 40px;
+  overflow:hidden;
+}
+
+.grid-2-1 .each, .grid-3-1 .each {
+  float:left;
+  height:auto;
+  position:relative;
+}
+
+.grid-2-1 > .each:first-child {
+  width:65%;
+  margin-right:4.3%;
+}
+
+.grid-2-1 > .each:last-child {
+  width:30.7%;
+  margin-right:0;
+}
+
+.grid-3-1 > .each:first-child {
+  width:72.3%;
+  margin-right:4.3%;
+}
+
+.grid-3-1 > .each:last-child {
+  width:23.4%;
+  margin-right:0;
+}
+
+.grid-2-1 h2, .grid-3-1 h2 {
+  color: #555;
+}
+
+@media (min-width:1300px)  {
+}
+
+@media (min-width:768px) and (max-width:979px)  {
+}
+
+@media (max-width:979px)  {
+}
+
+@media (max-width:767px)  {
+	.grid-3-1 > .each:first-child {
+	  margin-right:0;
+	}
+	.grid-2-1, .grid-3-1 {
+	  width: auto;
+	  margin: 0 40px 40px;
+	}
+	.grid-2-1 > .each, .grid-3-1 > .each {
+	  width:100% !important;
+	  margin-right:0;
+	  margin-bottom:30px;
+	}
+}
+
+/* END Grid 2-1, Grid 3-1 */
