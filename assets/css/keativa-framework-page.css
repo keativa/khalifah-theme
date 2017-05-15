@@ -14,6 +14,10 @@ nav ul {
   font-size: 12px;
 }
 
+nav > ul > li > .sub-menu {
+  border-top: 3px solid #fff;
+}
+
 .hero a {
   color:#fff;
 }
@@ -230,10 +234,26 @@ h1.head {
 }
 
 .gal-home2 {
-  padding:80px 0 0;
+  padding:80px 0 100px;
 }
 
 .gal-home2 .grid-4:last-child {
+  margin-bottom:0;
+}
+
+.wrap-grid.paket-home {
+    border-bottom: 1px solid #eee;
+}
+
+.paket-home h1.head {
+  margin:0;
+}
+
+.paket-home {
+  /*padding:80px 0 0;*/
+}
+
+.paket-home .grid-4:last-child {
   margin-bottom:0;
 }
 
@@ -308,6 +328,74 @@ background: #eee;
 
 .fb-like-box, .fb-like-box span, .fb-like-box span iframe[style] {
 width: 100% !important;
+}
+
+/* carousel */
+
+#container {
+  width: 1180px;
+}
+
+#carousel {
+  width: 1180px;
+  height: 280px;
+  position: relative;
+  display: block;
+  float: right;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+#carousel_wrap {
+  height: 280px !important;
+}
+
+#carousel_prev,
+#carousel_next {
+  top: 0;
+  width: 20px;
+  height: 280px;
+  background: #000;
+  cursor: pointer;
+  position: absolute;
+}
+#carousel_prev {
+  left: -20px;
+  background:transparent url(../img/prev.jpg) no-repeat top left;
+}
+#carousel_next {
+  right: -20px;
+  background:transparent url(../img/next.jpg) no-repeat top left;
+}
+
+#carousel ul li {
+  width: 295px;
+  float: left;
+  display: inline;
+}
+
+
+/* =======================================
+  ClearFixElements
+======================================= */
+#carousel ul:after {
+  content: ".";
+  height: 0;
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+
+#carousel ul {
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+#carousel ul li {
+
 }
 
 @media (min-width:1300px)  {

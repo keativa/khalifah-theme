@@ -3,7 +3,7 @@
           <div class="side-block wow fadeIn">
             <?php
             $my_query = null;
-            $my_query = new WP_Query(array('category_name' => 'opini-publik', 'posts_per_page' => 1));
+            $my_query = new WP_Query(array('category_name' => 'testimonial', 'posts_per_page' => 1));
             if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
             
             <div class="well">

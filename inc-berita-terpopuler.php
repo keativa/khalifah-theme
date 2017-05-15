@@ -3,8 +3,9 @@
           <h1 class="head wow fadeInDown"><i class="icon-user"></i> Berita Terpopuler</h1>
           <div class="side-block wow fadeIn">
             <?php
+              $cat_id_exclude = $smof_data['k_cat_id_exclude'];
               $my_query = null;
-              $my_query = new WP_Query(array('posts_per_page' => 5, 'meta_key' => 'post_views_count',  'orderby' => 'meta_value_num', 'order' => 'DESC'));
+              $my_query = new WP_Query(array('posts_per_page' => 5, 'meta_key' => 'post_views_count',  'orderby' => 'meta_value_num', 'order' => 'DESC', 'cat'=> $cat_id_exclude));
               if( $my_query->have_posts() ) : ?>
                 <ul class="listing-sidebar">
                   <?php

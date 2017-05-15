@@ -6,9 +6,13 @@
   
   include ( TEMPLATEPATH . '/inc-paket-home.php');
   
-  include ( TEMPLATEPATH . '/inc-gallery-home-v3.php');
+  include ( TEMPLATEPATH . '/inc-testimonial-fullwidth.php');
+
+  //include ( TEMPLATEPATH . '/inc-gallery-home-v3.php');
+
+  include ( TEMPLATEPATH . '/inc-gallery-home-carousel.php');
   
-  include ( TEMPLATEPATH . '/inc-berita-home.php');
+  // include ( TEMPLATEPATH . '/inc-berita-home.php');
   
   ?>
               

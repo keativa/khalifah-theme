@@ -31,7 +31,7 @@ function cpt_gallery() {
 		'show_in_nav_menus'   => true,
 		'show_in_admin_bar'   => true,
 		'menu_position'       => 5,
-		'menu_icon'           => '/khalifah-wp/wp-content/themes/khalifah-theme/images/cpt_icon.png',
+		'menu_icon'           => '/wp-content/themes/khalifah-theme/images/cpt_icon.png',
 		'can_export'          => true,
 		'has_archive'         => true,
 		'exclude_from_search' => false,

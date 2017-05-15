@@ -151,14 +151,14 @@ $of_options[] = array( 	"name" 		=> "Hero Background",
 $of_options[] = array( 	"name" 		=> "Teks Judul Header",
 						"desc" 		=> "Masukkan teks untuk judul header yang tampil di homepage.",
 						"id" 		=> "k_hero_title",
-						"std" 		=> "Khalifah Umroh & Tour",
+						"std" 		=> "Khalifah Umrah & Tour",
 						"type" 		=> "text"
 				);
 
 $of_options[] = array( 	"name" 		=> "Teks Header",
 						"desc" 		=> "Masukkan teks untuk konten header yang tampil di homepage.",
 						"id" 		=> "k_hero_text",
-						"std" 		=> "Sekarang setiap muslim bisa umroh. Cukup hanya 5 juta rupiah langsung berangkat umroh. Hanya di Khalifah Umroh & Tour!",
+						"std" 		=> "Sekarang setiap muslim bisa umroh. Cukup hanya 5 juta rupiah langsung berangkat umroh. Hanya di Khalifah Umrah & Tour!",
 						"type" 		=> "textarea"
 				);
 
@@ -212,7 +212,7 @@ $of_options[] = array( 	"name" 		=> "Pengaturan Warna",
 $of_options[] = array( 	"name" 		=> "Color Scheme",
 						"desc" 		=> "Warna background menu.",
 						"id" 		=> "k_color_main",
-						"std" 		=> "#046603",
+						"std" 		=> "#137d3f",
 						"type" 		=> "color"
 				);
 
@@ -240,7 +240,7 @@ $of_options[] = array( 	"name" 		=> "",
 $of_options[] = array( 	"name" 		=> "",
 						"desc" 		=> "Warna background sub menu ketika kursor berada di atasnya.",
 						"id" 		=> "k_color_menu_bg_hover",
-						"std" 		=> "#047c02",
+						"std" 		=> "#11892b",
 						"type" 		=> "color"
 				);
 
@@ -254,7 +254,7 @@ $of_options[] = array( 	"name" 		=> "",
 $of_options[] = array( 	"name" 		=> "",
 						"desc" 		=> "Warna teks di header.",
 						"id" 		=> "k_color_hero",
-						"std" 		=> "#606060",
+						"std" 		=> "#d8d8d8",
 						"type" 		=> "color"
 				);
 
@@ -282,7 +282,7 @@ $of_options[] = array( 	"name" 		=> "",
 $of_options[] = array( 	"name" 		=> "",
 						"desc" 		=> "Warna icon sosial media ketika kursor berada di atasnya.",
 						"id" 		=> "k_color_sosmed_icon_hover",
-						"std" 		=> "#046603",
+						"std" 		=> "#137d3f",
 						"type" 		=> "color"
 				);
 
@@ -310,7 +310,7 @@ $of_options[] = array( 	"name" 		=> "",
 $of_options[] = array( 	"name" 		=> "",
 						"desc" 		=> "Warna link secara umum.",
 						"id" 		=> "k_color_link",
-						"std" 		=> "#107c02",
+						"std" 		=> "#137d3f",
 						"type" 		=> "color"
 				);
 
@@ -331,7 +331,7 @@ $of_options[] = array( 	"name" 		=> "",
 $of_options[] = array( 	"name" 		=> "",
 						"desc" 		=> "Warna link judul berita ketika kursor diletakkan di atasnya.",
 						"id" 		=> "k_color_link_hover_berita",
-						"std" 		=> "#038e01",
+						"std" 		=> "#11892b",
 						"type" 		=> "color"
 				);
 
@@ -359,7 +359,7 @@ $of_options[] = array( 	"name" 		=> "",
 $of_options[] = array( 	"name" 		=> "",
 						"desc" 		=> "Warna blok heading.",
 						"id" 		=> "k_color_h1",
-						"std" 		=> "#345132",
+						"std" 		=> "#137d3f",
 						"type" 		=> "color"
 				);
 
@@ -373,7 +373,7 @@ $of_options[] = array( 	"name" 		=> "",
 $of_options[] = array( 	"name" 		=> "",
 						"desc" 		=> "Background button.",
 						"id" 		=> "k_color_btn_bg",
-						"std" 		=> "#107c02",
+						"std" 		=> "#137d3f",
 						"type" 		=> "color"
 				);
 				
@@ -387,7 +387,7 @@ $of_options[] = array( 	"name" 		=> "",
 $of_options[] = array( 	"name" 		=> "",
 						"desc" 		=> "Warna background pada button ketika kursor diletakkan di atasnya.",
 						"id" 		=> "k_color_btn_hover",
-						"std" 		=> "#118e01",
+						"std" 		=> "#11892b",
 						"type" 		=> "color"
 				);
 				

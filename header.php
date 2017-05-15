@@ -52,6 +52,7 @@
     <link rel='stylesheet' href='<?php bloginfo('template_url'); ?>/assets/css/style.css'>
     <link rel='stylesheet' href='<?php bloginfo('template_url'); ?>/assets/css/animate.min.css'>
     <link rel='stylesheet' href='<?php bloginfo('template_url'); ?>/assets/css/keativa-framework-page.css'>
+
     <?php include ( TEMPLATEPATH . '/inc-styling-options.php'); ?>
   	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>

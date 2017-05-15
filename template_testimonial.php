@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Opini Publik
+Template Name: Testimonial
 */
 ?>
 <?php get_header(); ?>
@@ -11,7 +11,7 @@ Template Name: Opini Publik
       <div class='grid-3-1'>
         <div class='each'>
           
-          <h1 class="head wow fadeInDown"><i class="icon-comment"></i> Opini Publik</h1>
+          <h1 class="head wow fadeInDown"><i class="icon-comment"></i> Testimonial</h1>
           <div class='grid-2 porto wow fadeIn'>
             
             <?php
@@ -19,7 +19,7 @@ Template Name: Opini Publik
             $my_query = null;
             $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
             //$my_query = new WP_Query(array('posts_per_page' => $k_posts_beritahome));
-            $my_query = new WP_Query(array('category_name' => 'opini-publik', 'paged' => $paged, 'posts_per_page' => 8));
+            $my_query = new WP_Query(array('category_name' => 'testimonial', 'paged' => $paged, 'posts_per_page' => 8));
             if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
     
               <div class='each'>
