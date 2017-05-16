@@ -12,7 +12,7 @@
             <h1 class="head wow fadeInDown"><i class="icon-user"></i> <?php the_title(); ?></h1>
             <div class='grid-1 porto wow fadeIn'>
               
-              <?php if (is_page('profil')) { ?>
+              <?php if (is_page('tentang-kami')) { ?>
                 <?php
                 $check = rwmb_meta( 'k_foto_profil' );
                 $foto_profil = rwmb_meta( 'k_foto_profil', 'type=plupload_image' );

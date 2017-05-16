@@ -1,5 +1,13 @@
 
-# Khalifah Theme Changelogs
+# Khalifah Theme Changelog
+
+v1.0.2
+
+- added matchHeight to testimonial page
+- changed slug from 'profil' to 'tentang-kami' in page.php
+- added prev next icons to carousel
+- changed hero to slide
+- fixed minor css bugs
 
 v1.0.1
 

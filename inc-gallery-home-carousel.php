@@ -20,7 +20,13 @@
         $cat_id_exclude = $smof_data['k_cat_id_exclude'];
         $my_query = null;
         $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-        $my_query = new WP_Query(array('post_type' => array('gallery', 'post'), 'cat' => $cat_id_exclude, 'paged' => $paged, 'posts_per_page' => 8));
+        $my_query = new WP_Query(array(
+          'post_type' => array('gallery',
+          //'post'
+          ),
+        //'cat' => $cat_id_exclude,
+        'paged' => $paged,
+        'posts_per_page' => 8));
         if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
         
           <?php if (get_post_type($post->ID) == 'post') { ?>

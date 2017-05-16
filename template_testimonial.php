@@ -12,7 +12,7 @@ Template Name: Testimonial
         <div class='each'>
           
           <h1 class="head wow fadeInDown"><i class="icon-comment"></i> Testimonial</h1>
-          <div class='grid-2 porto wow fadeIn'>
+          <div class='grid-2 porto wow fadeIn testi'>
             
             <?php
             //$k_posts_beritahome = $data['k_posts_beritahome'];

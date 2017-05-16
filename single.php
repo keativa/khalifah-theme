@@ -182,7 +182,7 @@
         <div class='each'>
           <?php include ( TEMPLATEPATH . '/inc-sosok.php'); ?>
           <?php include ( TEMPLATEPATH . '/inc-berita-terpopuler.php'); ?>
-          <?php include ( TEMPLATEPATH . '/inc-opini-publik.php'); ?>
+          <?php include ( TEMPLATEPATH . '/inc-testimonial.php'); ?>
           <?php include ( TEMPLATEPATH . '/inc-facebook.php'); ?>
         </div>
       </div>

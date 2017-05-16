@@ -32,15 +32,26 @@
 	  wow.init();
       
     $(function() {
-		  $('.slide-sosok').unslider({
-			  //speed: 500,
-			  delay: 4000,
-			  dots: false,
-			  keys: true,
-			  fade: true,
-			  fluid: true
-		  });
-	  });
+      $('.slide-sosok').unslider({
+        //speed: 500,
+        delay: 4000,
+        dots: false,
+        keys: false,
+        fade: true,
+        fluid: true
+      });
+    });
+
+    $(function() {
+      $('.slide-main').unslider({
+        //speed: 500,
+        delay: 4000,
+        dots: true,
+        keys: true,
+        fade: false,
+        fluid: true
+      });
+    });
 
 
 
