@@ -25,6 +25,10 @@ nav ul li a.active,nav .current-menu-item a {
   border-bottom:3px solid <?php echo $smof_data['k_color_menu_border']; ?>
 }
 
+.slide-caption h2, .slide-caption h2 a {
+  color:<?php echo $smof_data['k_color_menu_border']; ?>
+}
+
 nav ul ul li a:hover {
   background: <?php echo $smof_data['k_color_menu_bg_hover']; ?>;
 }

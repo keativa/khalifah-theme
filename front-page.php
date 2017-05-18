@@ -4,7 +4,9 @@
   
   //include ( TEMPLATEPATH . '/inc-hero-frontpage.php');
 
-  include ( TEMPLATEPATH . '/inc-slide-frontpage.php');
+  //include ( TEMPLATEPATH . '/inc-slide-frontpage.php');
+
+  include ( TEMPLATEPATH . '/inc-slide-frontpage-banner.php');
   
   include ( TEMPLATEPATH . '/inc-paket-home.php');
   

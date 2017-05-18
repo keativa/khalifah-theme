@@ -1,6 +1,6 @@
 
   
-  <!-- START wrap-grid, hero -->
+  <!-- START wrap-grid, hero, get from default post type -->
   <div class='wrap-grid slide'>
     <div class='wrap'>
 

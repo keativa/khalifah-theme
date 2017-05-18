@@ -44,4 +44,48 @@ function cpt_gallery() {
 add_action( 'init', 'cpt_gallery', 0 );
 
 
+// CPT: Gallery
+function cpt_banner() {
+	$labels = array(
+		'name'                => 'Banners',
+		'singular_name'       => 'Banner',
+		'menu_name'           => 'Banner',
+		'parent_item_colon'   => 'Parent Banner:',
+		'all_items'           => 'All Banners',
+		'view_item'           => 'View Banner',
+		'add_new_item'        => 'Add New Banner',
+		'add_new'             => 'New Banner',
+		'edit_item'           => 'Edit Banner',
+		'update_item'         => 'Update Banner',
+		'search_items'        => 'Search Banners',
+		'not_found'           => 'No banners found',
+		'not_found_in_trash'  => 'No banners found in Trash',
+	);
+
+	$args = array(
+		'label'               => 'banner',
+		'description'         => 'Banner information pages',
+		'labels'              => $labels,
+		'supports'            => array( 'title', 'editor', ),
+		'taxonomies'          => array( ),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => 5,
+		'menu_icon'           => '/wp-content/themes/khalifah-theme/images/cpt_icon.png',
+		'can_export'          => true,
+		'has_archive'         => false,
+		'exclude_from_search' => false,
+		'publicly_queryable'  => true,
+		'capability_type'     => 'post',
+	);
+
+	register_post_type( 'banner', $args );
+}
+add_action( 'init', 'cpt_banner', 0 );
+
+
 ?>

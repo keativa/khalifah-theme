@@ -10,6 +10,13 @@ h1, h2, h3, h4, h5, h6 {
 	background:#eee
 }
 
+.wrap-nav-1-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
 nav ul {
   font-size: 12px;
 }
@@ -107,9 +114,11 @@ ul.social li a [class^="icon-"] {
 }
 
 .slide {
-  padding: 40px 0;
+  padding: 50px 0 65px;
   /*background: linear-gradient(117deg,#137d3f,#069c34);*/
   background: linear-gradient(117deg,#111,#333);
+  background: #333 url(../images/mecca3.png) no-repeat bottom center;
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.3);
 }
 
 .slide-main ul {
@@ -123,6 +132,7 @@ ul.social li a [class^="icon-"] {
 
 .slide-main .each {
   position: relative;
+  border-bottom: 3px solid #fff;
 }
 
 .slide-caption {
@@ -210,6 +220,17 @@ font-weight: 700;
 .porto .caption h2 a {
 color:#444;
 }
+
+/* tables on program/paket umroh page */
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg th, .tg td {padding: 10px 15px;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;border:1px solid #bbb;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;}
+.tg .tg-349v{font-weight:bold;background-color:#137d3f;color:#ebd203;vertical-align:top}
+.tg .tg-3we0{background-color:#ffffff;vertical-align:top}
+.tg .tg-4w2d,.tg .tg-ckwe, .tg .tg-w6b1{background-color:#137d3f;color:#ebd203;text-align:center}
+.tg .tg-yw4l{vertical-align:top}
 
 .listing-sidebar li {
 overflow: hidden;

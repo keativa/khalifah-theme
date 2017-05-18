@@ -37,6 +37,22 @@ $meta_boxes[] = array(
 );
 
 
+// banner meta box
+$meta_boxes[] = array(
+	'title' => 'Detail Banner',
+	'pages' => array( 'banner' ),
+	'fields' => array(
+		// URL Foto
+		array(
+			'name'  => 'Banner',
+			'id'    => "{$prefix}banner",
+			'desc'  => 'Upload foto banner untuk ditampilkan pada slide homepage. <span style="color:red">Upload hanya 1 banner</span>, jika lebih akan terjadi error dan banner tidak akan tampil.',
+			'type'  => 'thickbox_image',
+		)
+	)
+);
+
+
 // PROFIL meta box
 $meta_boxes[] = array(
 	'title' => 'Biodata <em>(Bagian ini hanya untuk halaman Profil)</em>',

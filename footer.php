@@ -133,6 +133,20 @@
 
       });
 
+      // sticky nav
+      
+      var  mn = $(".wrap-nav-1");
+      mns = "wrap-nav-1-scrolled";
+      hdr = $('.wrap-nav-1').height();
+
+      $(window).scroll(function() {
+        if( $(this).scrollTop() > hdr ) {
+          mn.addClass(mns);
+        } else {
+          mn.removeClass(mns);
+        }
+      });
+
       // same height for div
 
       $(function() {

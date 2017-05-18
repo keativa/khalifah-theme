@@ -23,7 +23,13 @@ Template Name: Galeri
         // jika hanya galeri pakai ini ---> 'post_type' => 'gallery' dan hapus bagian 'cat' => $cat_id_exclude,
         // tapi ingin galeri + post pakai ini ---> 'post_type' => array('gallery', 'post'), 'cat' => $cat_id_exclude,
         // lalu sesuaikan Line 29-55
-        $my_query = new WP_Query(array('post_type' => array('gallery', 'post'), 'cat' => $cat_id_exclude, 'paged' => $paged, 'posts_per_page' => 8));
+        $my_query = new WP_Query(array('post_type' => array(
+          'gallery',
+          //'post'
+          ),
+        //'cat' => $cat_id_exclude,
+        'paged' => $paged,
+        'posts_per_page' => 8));
         if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
         
           <?php if (get_post_type($post->ID) == 'post') { ?>

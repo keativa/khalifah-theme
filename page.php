@@ -9,7 +9,7 @@
         <div class='grid-2-1'>
           <div class='each'>
           
-            <h1 class="head wow fadeInDown"><i class="icon-user"></i> <?php the_title(); ?></h1>
+            <h1 class="head wow fadeInDown"><!-- <i class="icon-user"> --></i> <?php the_title(); ?></h1>
             <div class='grid-1 porto wow fadeIn'>
               
               <?php if (is_page('tentang-kami')) { ?>
@@ -31,7 +31,13 @@
           
           </div>
           <div class='each'>
-            <h1 class="head wow fadeInDown"><i class="icon-resume"></i> Profil</h1>
+            <h1 class="head wow fadeInDown"><!-- <i class="icon-resume"></i>  -->
+              <?php if (is_page('tentang-kami')) { echo 'Profil';
+                } elseif (is_page('program-umroh')) { echo 'Persyaratan';
+                } elseif (is_page('paket-umroh')) { echo 'Paket Umroh';
+                } else { echo ''; }
+              ?>
+            </h1>
             <div class="side-block wow fadeInUp">
               <?php
               	$biodata = rwmb_meta( 'k_biodata' );

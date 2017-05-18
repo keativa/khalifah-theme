@@ -1,6 +1,14 @@
 
 # Khalifah Theme Changelog
 
+v1.0.3
+
+- add 'banner' post type
+- changed slides on homepage to get post from 'banner' post type
+- add sticky nav when scrolled
+- fixed minor css bugs
+- added style for table on 'layanan' pages
+
 v1.0.2
 
 - added matchHeight to testimonial page
