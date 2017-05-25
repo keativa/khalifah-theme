@@ -1,5 +1,5 @@
 
-          <h1 class="head wow fadeInDown"><i class="icon-user"></i> Paket Umroh</h1>
+          <h1 class="head wow fadeInDown"><!-- <i class="icon-user"></i>  -->Paket Umroh</h1>
           <div class="side-block wow fadeIn">
             <div class="slide-sosok">
               <ul>

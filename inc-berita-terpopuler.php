@@ -1,6 +1,6 @@
 
           
-          <h1 class="head wow fadeInDown"><i class="icon-user"></i> Berita Terpopuler</h1>
+          <h1 class="head wow fadeInDown"><!-- <i class="icon-user"></i>  -->Berita Terpopuler</h1>
           <div class="side-block wow fadeIn">
             <?php
               $cat_id_exclude = $smof_data['k_cat_id_exclude'];

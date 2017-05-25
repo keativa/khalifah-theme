@@ -1,5 +1,5 @@
 
-          <h1 class="head wow fadeInDown"><i class="icon-facebook"></i> Facebook</h1>
+          <h1 class="head wow fadeInDown"><!-- <i class="icon-facebook"></i>  -->Facebook</h1>
           <div class="side-block wow fadeIn">
             <div class="fb-like-box" data-href="https://www.facebook.com/Google" data-width="292" data-show-faces="true" data-stream="false" data-header="true"></div>
           </div>
