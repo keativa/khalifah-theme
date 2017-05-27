@@ -53,24 +53,46 @@ $meta_boxes[] = array(
 );
 
 
+// Page Description meta box
+$meta_boxes[] = array(
+	'title' => 'Page Description (optional)',
+	'pages' => array( 'page' ),
+	'fields' => array(
+		// Page Description
+		array(
+			'name' => 'Description',
+			'id'   => "{$prefix}page_description",
+			'desc' => 'Masukkan beberapa kata yang bisa mewakili halaman yang Anda buat. Bagian ini tampil pada bagian header (tepat di bawah judul) di halaman yang Anda buat.',
+			'type'  => 'textarea',
+		),
+	)
+);
+
 // PROFIL meta box
 $meta_boxes[] = array(
 	'title' => 'Biodata <em>(Bagian ini hanya untuk halaman Profil)</em>',
 	'pages' => array( 'page' ),
 	'fields' => array(
-		// Foto Profil
+		// Sidebar Title
 		array(
-			'name' => 'Foto Profil',
-			'id'   => "{$prefix}foto_profil",
-			'desc' => 'Masukkan foto yang akan ditampilkan di halaman PROFIL.<br><strong>CATATAN : </strong>Field ini hanya dipakai untuk halaman Profil.',
-			'type'  => 'plupload_image',
-			'max_file_uploads'   => 1,
+			'name' => 'Sidebar Title',
+			'id'   => "{$prefix}side_title",
+			'desc' => 'Masukkan judul yang ingin Anda tampilkan pada bagian sidebar. Kosongkan jika tidak perlu.',
+			'type'  => 'text',
 		),
+		// Foto Profil
+		// array(
+		// 	'name' => 'Foto Profil',
+		// 	'id'   => "{$prefix}foto_profil",
+		// 	'desc' => 'Masukkan foto yang akan ditampilkan di halaman PROFIL.<br><strong>CATATAN : </strong>Field ini hanya dipakai untuk halaman Profil.',
+		// 	'type'  => 'plupload_image',
+		// 	'max_file_uploads'   => 1,
+		// ),
 		// URL Foto
 		array(
-			'name'  => 'Biodata',
+			'name'  => 'Sidebar Content',
 			'id'    => "{$prefix}biodata",
-			'desc'  => 'Masukkan profil lengkap Khalifah Umroh & Tour.<br><strong>CATATAN : </strong>Field ini hanya dipakai untuk halaman Profil.',
+			'desc'  => 'Masukkan konten yang ingin Anda tampilkan di sidebar.',
 			'type'  => 'wysiwyg',
 		)
 	)
