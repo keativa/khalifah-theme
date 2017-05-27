@@ -1,5 +1,5 @@
 
-          <h1 class="head wow fadeInDown"><i class="icon-comment"></i> Testimonial</h1>
+          <h1 class="head wow fadeInDown"><!-- <i class="icon-comment"></i>  -->Testimonial</h1>
           <div class="side-block wow fadeIn">
             <?php
             $my_query = null;

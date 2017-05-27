@@ -4,6 +4,7 @@ Template Name: Berita
 */
 ?>
 <?php get_header(); ?>
+<?php include ( TEMPLATEPATH . '/inc-header-big.php'); ?>
   
   <!-- START wrap-grid, grid-3-1 -->
   <div class='wrap-grid listing'>
@@ -11,7 +12,7 @@ Template Name: Berita
       <div class='grid-3-1'>
         <div class='each'>
           
-          <h1 class="head wow fadeInDown"><i class="icon-portfolio"></i> Berita</h1>
+          <!-- <h1 class="head wow fadeInDown"><i class="icon-portfolio"></i> Berita</h1> -->
           <?php
           $cat_id_exclude = $smof_data['k_cat_id_exclude'];
           $my_query = null;
@@ -45,7 +46,8 @@ Template Name: Berita
           <?php include ( TEMPLATEPATH . '/inc-sosok.php'); ?>
           <?php include ( TEMPLATEPATH . '/inc-berita-terpopuler.php'); ?>
           <?php include ( TEMPLATEPATH . '/inc-testimonial.php'); ?>
-          <?php include ( TEMPLATEPATH . '/inc-facebook.php'); ?>
+          <?php //include ( TEMPLATEPATH . '/inc-facebook.php'); 
+          ?>
         </div>
       </div>
     </div>

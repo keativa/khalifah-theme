@@ -49,6 +49,10 @@ nav ul li:hover > ul {
 display: block;
 width:200px;
 }
+nav ul li:last-child:hover > ul {
+top: 100%;
+right: 0;
+}
 nav ul {
 background: #BA1414;
 padding: 0;
@@ -72,6 +76,7 @@ opacity:1
 nav ul li:hover a {
 color: #fff;
 opacity:1;
+position: relative;
 }
 nav ul li a {
 display: block; padding: 17px 20px;

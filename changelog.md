@@ -1,6 +1,42 @@
 
 # Khalifah Theme Changelog
 
+=============
+
+COLLECTIONS :
+
+
+khalifah (mecca madinah)
+https://unsplash.com/collections/892902/1200x300
+
+dubai
+https://unsplash.com/collections/892905/1200x300
+
+yordania
+https://unsplash.com/collections/892915/1200x300
+
+turki
+https://unsplash.com/collections/892912/1200x300
+
+mesir
+https://unsplash.com/collections/892910/1200x300
+
+=============
+
+v1.0.5
+
+- fixed sub menu (last-child)
+- added new metabox for sidebar title
+- added header for page.php and page templates
+- removed title within page.php, replaced by title on header
+- added metabox for page description
+- added jquery zoomout effect for background on header
+
+v1.0.4
+
+- remove icons on sidebar
+- fixed carousel css, it's now responsive
+
 v1.0.3
 
 - add 'banner' post type

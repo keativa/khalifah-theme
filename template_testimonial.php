@@ -4,6 +4,7 @@ Template Name: Testimonial
 */
 ?>
 <?php get_header(); ?>
+<?php include ( TEMPLATEPATH . '/inc-header-big.php'); ?>
   
   <!-- START wrap-grid, grid-3-1 -->
   <div class='wrap-grid listing'>
@@ -11,7 +12,7 @@ Template Name: Testimonial
       <div class='grid-3-1'>
         <div class='each'>
           
-          <h1 class="head wow fadeInDown"><i class="icon-comment"></i> Testimonial</h1>
+          <!-- <h1 class="head wow fadeInDown"><i class="icon-comment"></i> Testimonial</h1> -->
           <div class='grid-2 porto wow fadeIn testi'>
             
             <?php
@@ -42,7 +43,8 @@ Template Name: Testimonial
         <div class='each'>
           <?php include ( TEMPLATEPATH . '/inc-sosok.php'); ?>
           <?php include ( TEMPLATEPATH . '/inc-berita-terpopuler.php'); ?>
-          <?php include ( TEMPLATEPATH . '/inc-facebook.php'); ?>
+          <?php //include ( TEMPLATEPATH . '/inc-facebook.php'); 
+          ?>
         </div>
       </div>
     </div>

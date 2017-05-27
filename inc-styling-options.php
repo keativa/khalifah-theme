@@ -132,4 +132,15 @@ h1.head {
   background:<?php echo $smof_data['k_color_btn_hover']; ?>
 }
 
+.header-big {
+  <?php if (is_page('tentang-kami') || is_page('program-umroh') || is_page('paket-umroh')) { ?>
+    background: #0a6b32 url(https://source.unsplash.com/collection/892902/1200x300) center center no-repeat;
+  <?php } elseif (is_page('muslim-tour') || is_page('testimonial')) { ?>
+    background: #0a6b32 url(https://source.unsplash.com/collection/892905/1200x300) center center no-repeat;
+  <?php } else { ?>
+    background: #0a6b32 url(https://source.unsplash.com/user/khalifah/likes/1200x300) center center no-repeat;
+  <?php } ?>
+  background-size: cover;
+}
+
 </style>

@@ -18,6 +18,7 @@
   <script src='<?php bloginfo('template_url'); ?>/assets/js/wow.min.js'></script>
   <script src='<?php bloginfo('template_url'); ?>/assets/js/retina.js'></script>
   <script src='<?php bloginfo('template_url'); ?>/assets/js/jquery.matchHeight.js'></script>
+  <script src='<?php bloginfo('template_url'); ?>/assets/js/jquery.zoomslider.min.js'></script>
   <script type='text/javascript'>
     //<![CDATA[
     
@@ -140,7 +141,9 @@
       hdr = $('.wrap-nav-1').height();
 
       $(window).scroll(function() {
-        if( $(this).scrollTop() > hdr ) {
+        //if( $(this).scrollTop() > hdr ) {
+        // 148 --> height of nav on mobile 
+        if( $(this).scrollTop() > 148 ) {
           mn.addClass(mns);
         } else {
           mn.removeClass(mns);

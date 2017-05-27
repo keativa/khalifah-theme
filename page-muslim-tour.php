@@ -1,17 +1,18 @@
 <?php get_header(); ?>
-<?php include ( TEMPLATEPATH . '/inc-header-big.php'); ?>
+  
   <!-- START wrap-grid, grid-3-1 -->
   <div class='wrap-grid single'>
     <div class='wrap'>
         
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
       
-        <div class='grid-2-1'>
+        <div class='grid-2'>
           <div class='each'>
           
+            <h1 class="head wow fadeInDown"><!-- <i class="icon-user"> --></i> <?php the_title(); ?></h1>
             <div class='grid-1 porto wow fadeIn'>
               
-              <!-- <?php if (is_page('tentang-kami')) { ?>
+              <?php if (is_page('tentang-kami')) { ?>
                 <?php
                 $check = rwmb_meta( 'k_foto_profil' );
                 $foto_profil = rwmb_meta( 'k_foto_profil', 'type=plupload_image' );
@@ -22,7 +23,7 @@
                   </div>
                   
                 <?php } ?>
-              <?php } ?> -->
+              <?php } ?>
               
               <?php the_content(); ?>
               
@@ -30,12 +31,13 @@
           
           </div>
           <div class='each'>
-            <?php
-                $sidetitle = rwmb_meta( 'k_side_title' );
-                if($sidetitle != '') {
-                  echo "<h1 class='head wow fadeInDown'>".$sidetitle."</h1>";
-                }
-            ?>
+            <h1 class="head wow fadeInDown"><!-- <i class="icon-resume"></i>  -->
+              <?php if (is_page('tentang-kami')) { echo 'Profil';
+                } elseif (is_page('program-umroh')) { echo 'Persyaratan';
+                } elseif (is_page('paket-umroh')) { echo 'Paket Umroh';
+                } else { echo ''; }
+              ?>
+            </h1>
             <div class="side-block wow fadeInUp">
               <?php
               	$biodata = rwmb_meta( 'k_biodata' );

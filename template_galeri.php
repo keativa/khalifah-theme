@@ -4,13 +4,14 @@ Template Name: Galeri
 */
 ?>
 <?php get_header(); ?>
+<?php include ( TEMPLATEPATH . '/inc-header-big.php'); ?>
   
   <!-- START wrap-grid, porto v3 -->
   <div class='wrap-grid gal-home'>
     <div class='wrap'>
       <div class="grid-4">
         <div class="summary">
-          <h1 class="wow fadeInDown head"><i class="icon-photo"></i> Galeri</h1>
+          <!-- <h1 class="wow fadeInDown head"><i class="icon-photo"></i> Galeri</h1> -->
         </div>
       </div>
       <div class='grid-4 mylightbox porto wow fadeIn'>
